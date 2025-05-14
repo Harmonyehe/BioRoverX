@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Raspberry Pi Cam + Sensor</title>
+  <style>
+    body { font-family: Arial; text-align: center; }
+    img { width: 640px; border: 2px solid #333; }
+    #sensor-data { margin-top: 20px; }
+  </style>
+</head>
+<body>
+  <h1>=� Pi Live Camera Feed</h1>
+  <img src="{{ url_for('video_feed') }}">
+
+  <div id="sensor-data">
+    <h2><!Sensor Readings</h2>
+    <pre id="data">Loading...</pre>
+  </div>
+
+  <script>
+    async function fetchSensorData() {
+      const res = await fetch("/sensors");
+      const data = await res.json();
+      document.getElementById("data").textContent = JSON.stringify(data, null, 2);
+    }
+    setInterval(fetchSensorData, 2000); // update every 2 sec
+    fetchSensorData();
+  </script>
+</body>
+</html>
