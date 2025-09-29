@@ -161,4 +161,7 @@ Special thanks to the TinyML community for their support in building the low-pow
 
 Thanks to the Raspberry Pi Foundation and Arduino for their incredible platforms.
 
+![PT2 REPORT BIOROVERX Image 55](https://github.com/user-attachments/assets/0881c0e5-43ea-43e3-b17d-70134011d288)
+![side view](https://github.com/user-attachments/assets/2eacee20-e787-4c4b-8e32-a0ce722ace68)
+![front view](https://github.com/user-attachments/assets/36365def-4a80-474c-8bd4-a3ab7adbe189)
 
