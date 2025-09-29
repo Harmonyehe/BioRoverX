@@ -1,5 +1,6 @@
 BioRoverX: Autonomous Mobile BioLab Assistant for Extreme Environments
 BioRoverX is an autonomous mobile robotic platform designed to collect and analyze environmental data in harsh or extreme environments. The rover is equipped with a 6-DOF robotic arm for sample collection and path clearing, as well as a suite of environmental sensors for data collection. The system is powered by a Raspberry Pi 5 and Arduino Nano 33 BLE Sense, with a focus on TinyML for low-power operation and efficient environmental condition classification.
+
 Features
 Autonomous Navigation: The rover uses four OG555 motors controlled by an L298N motor driver for movement.
 
@@ -164,4 +165,8 @@ Thanks to the Raspberry Pi Foundation and Arduino for their incredible platforms
 ![PT2 REPORT BIOROVERX Image 55](https://github.com/user-attachments/assets/0881c0e5-43ea-43e3-b17d-70134011d288)
 ![side view](https://github.com/user-attachments/assets/2eacee20-e787-4c4b-8e32-a0ce722ace68)
 ![front view](https://github.com/user-attachments/assets/36365def-4a80-474c-8bd4-a3ab7adbe189)
+
+
+https://github.com/user-attachments/assets/c9a7881d-07e0-486f-b08b-c897be450523
+
 
